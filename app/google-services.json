@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469799254908",
+    "firebase_url": "https://quizduell-63467.firebaseio.com",
+    "project_id": "quizduell-63467",
+    "storage_bucket": "quizduell-63467.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469799254908:android:bf00ae8b408c27df",
+        "android_client_info": {
+          "package_name": "com.thurau.quizduell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469799254908-kdmjjid53l0brbv59qdsjas92cln37vm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thurau.quizduell",
+            "certificate_hash": "0b650f113b03a55798565f56bac18c5382f05fd1"
+          }
+        },
+        {
+          "client_id": "469799254908-hlvctcqd0gbnh8m059c3v9j5uvg1an7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvjhswhxkThAlk5QCVEB_ap_HwkqVf9N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469799254908-hlvctcqd0gbnh8m059c3v9j5uvg1an7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

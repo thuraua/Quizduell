@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-public class Quiz implements Serializable {
+public class Quiz implements Serializable, Comparable<Quiz> {
     private String name;
     private List<Question> collQuestions=new ArrayList<>();
 
@@ -50,5 +50,10 @@ public class Quiz implements Serializable {
     @Override
     public String toString() {
         return name;
+    }
+
+    @Override
+    public int compareTo(Quiz o) {
+        return this.name.compareTo(o.getName());
     }
 }

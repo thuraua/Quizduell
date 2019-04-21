@@ -56,10 +56,7 @@ public class FirestoreReadQuiz extends AsyncTask<String, Void, Void> implements 
                 e.printStackTrace();
             }
         }
-        tmp.sort(new Comparator<Quiz>() {
-            @Override
-            public int compare(Quiz q1, Quiz q2) { return  q2.getName().compareTo(q1.getName()); }
-        });
+        Collections.sort(tmp);
         listener.onReadCompleted(tmp);
     }
 

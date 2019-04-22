@@ -37,7 +37,7 @@ public class WaitingActivityFinish extends AppCompatActivity implements EnemyLis
         fs_progress = new FirestoreEnemyProgress(this, enemyId);
         fs_progress.execute();
         try {
-            new FirestoreWriteTime().execute(enemyId, myId, Math.toIntExact(myDuration));
+            new FirestoreWriteTime().execute(enemyId, myId, (int)myDuration);
         } catch (Exception e) {
             e.printStackTrace();
         }
